@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const BaseUrl = `https://free-api.heweather.net`;
+exports.BaseUrl = BaseUrl;
+const GET_WTHR_KEY = 'c21b4c10d6ca4641b065fcd1a67845f9';
+exports.GET_WTHR_KEY = GET_WTHR_KEY;
+const ApiList = {
+    GET_WTHR: "/s6/weather/forecast",
+};
+exports.ApiList = ApiList;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBpLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsTUFBTSxPQUFPLEdBQUcsZ0NBQWdDLENBQUM7QUFReEMsMEJBQU87QUFOaEIsTUFBTSxZQUFZLEdBQUcsa0NBQWtDLENBQUE7QUFNNUIsb0NBQVk7QUFKdkMsTUFBTSxPQUFPLEdBQUc7SUFDZCxRQUFRLEVBQUUsc0JBQXNCO0NBQ2pDLENBQUM7QUFFZ0IsMEJBQU8iLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBCYXNlVXJsID0gYGh0dHBzOi8vZnJlZS1hcGkuaGV3ZWF0aGVyLm5ldGA7XHJcblxyXG5jb25zdCBHRVRfV1RIUl9LRVkgPSAnYzIxYjRjMTBkNmNhNDY0MWIwNjVmY2QxYTY3ODQ1ZjknXHJcblxyXG5jb25zdCBBcGlMaXN0ID0ge1xyXG4gIEdFVF9XVEhSOiBcIi9zNi93ZWF0aGVyL2ZvcmVjYXN0XCIsXHJcbn07XHJcblxyXG5leHBvcnQgeyBCYXNlVXJsLCBBcGlMaXN0LCBHRVRfV1RIUl9LRVkgfTtcclxuIl19

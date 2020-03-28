@@ -1,0 +1,8 @@
+<block wx:if="{{showView}}">
+  <van-notice-bar wx:if="{{!hasLocation}}" color='rgb(25, 137, 250)' backgroundColor='rgb(236, 249, 255)' text="未开启位置权限，无法获取天气情况">
+    <van-button type="info" size="small" slot="right-icon" bind:click="openSetting">
+      开启权限
+    </van-button>
+  </van-notice-bar>
+  <van-calendar title="空山新雨后，天气晚来秋" poppable="{{ false }}" show-confirm="{{ false }}" formatter="{{ formatter }}" class="calendar" />
+</block>
